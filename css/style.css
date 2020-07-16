@@ -10,13 +10,6 @@
   height: 100px;
 }
 
-.bg_green {
-  border: 1px solid green;
-  height: 300px;
-  position: relative;
-  margin-top:
-}
-
 .box {
   position: absolute;
   top: 50%;
@@ -43,6 +36,10 @@ body {
 .btn_green {
   background-color: #1CBC9B;
   color: #fff;
+}
+
+.bg_green {
+  background-color: #1CBC9B;
 }
 
 /* navigation */
@@ -80,4 +77,29 @@ a {
 .font_nav a:hover {
   color: #1CBC9B;
   text-decoration: none;
+}
+
+/* jumbotron */
+
+.jumbo {
+  margin-top: 75px;
+  padding: 70px 0;
+}
+.jumbo_text {
+  max-width: 900px;
+  padding: 0 15px;
+  margin: auto;
+  text-align: center;
+}
+
+.img_small {
+  width: 30%;
+  display: inline-block;
+}
+
+/* Media queries */
+@media screen and (max-width: 697px) {
+  .nav_start {
+    font-size: 1em;
+  }
 }
