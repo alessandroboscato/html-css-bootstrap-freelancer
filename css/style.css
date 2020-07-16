@@ -33,11 +33,16 @@
   height: 200px;
 }
 
-/* debug */
-
+/* typhography */
 body {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
+}
+
+/* mix */
+.btn_green {
+  background-color: #1CBC9B;
+  color: #fff;
 }
 
 /* navigation */
@@ -76,5 +81,3 @@ a {
   color: #1CBC9B;
   text-decoration: none;
 }
-
-/* hamburger */
