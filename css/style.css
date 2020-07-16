@@ -97,6 +97,27 @@ a {
   display: inline-block;
 }
 
+/* divider */
+.divider {
+  height: 45px;
+  position: relative;
+  color: #fff;
+}
+
+.display_inline_block {
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 49%;
+}
+
+.divider-small {
+  display: inline-block;
+  border: 2px solid #fff;
+  width: 80px;
+  margin: 0 20px;
+}
+
 /* Media queries */
 @media screen and (max-width: 697px) {
   .nav_start {
