@@ -1,3 +1,5 @@
+/* debug */
+
 .bg_blue {
   border: 1px solid blue;
   height: 110px;
@@ -29,4 +31,27 @@
 .bg_pink {
   border: 1px solid pink;
   height: 200px;
+}
+
+/* debug */
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+.header_top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 75px;
+  line-height: 75px;
+  background-color: #2C3E4F;
+
+}
+
+a {
+  font-size: 2.0rem;
+  color: #fff;
 }
