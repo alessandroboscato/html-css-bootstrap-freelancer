@@ -32,6 +32,11 @@ body {
   font-size: 20px;
 }
 
+main h2 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
 /* mix */
 .btn_green {
   background-color: #1CBC9B;
@@ -42,6 +47,12 @@ body {
   background-color: #1CBC9B;
 }
 
+.p_top_80 {
+  padding-top: 80px;
+}
+.p_bottom_80 {
+  padding-bottom: 80px;
+}
 /* navigation */
 .header_top {
   position: fixed;
@@ -111,6 +122,8 @@ a {
 .divider {
   color: #fff;
   font-size: 2.5rem;
+  text-align: center;
+  margin: 20px 0;
 }
 
 hr {
@@ -122,6 +135,19 @@ hr {
   border-top: 5px solid #fff;
 }
 
+/* portfolio */
+#portfolio .divider {
+  color: #2C3E4F;
+}
+
+#portfolio .divider hr {
+  border-top: 5px solid #2C3E4F;
+}
+.box_portfolio {
+  height: 250px;
+  background-color: blue;
+  margin-bottom: 30px;
+}
 /* Media queries */
 @media screen and (max-width: 697px) {
   .nav_start {
