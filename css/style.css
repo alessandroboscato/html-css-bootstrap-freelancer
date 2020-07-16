@@ -52,6 +52,26 @@ body {
 }
 
 a {
-  font-size: 2.0rem;
+  font-size: 1.75em;
   color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav_start:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.font_nav {
+  font-size: 1rem;
+}
+
+.font_nav a {
+  padding: 10px;
+}
+
+.font_nav a:hover {
+  color: #1CBC9B;
+  text-decoration: none;
 }
