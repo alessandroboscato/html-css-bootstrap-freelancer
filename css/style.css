@@ -90,6 +90,7 @@ a {
   padding: 0 15px;
   margin: auto;
   text-align: center;
+  color: #fff;
 }
 
 .img_small {
@@ -97,25 +98,28 @@ a {
   display: inline-block;
 }
 
+.jumbo_text h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.jumbo_text p {
+  font-size: 2rem;
+}
+
 /* divider */
 .divider {
-  height: 45px;
-  position: relative;
   color: #fff;
+  font-size: 2.5rem;
 }
 
-.display_inline_block {
+hr {
   display: inline-block;
-  position: absolute;
-  top: 20%;
-  left: 49%;
-}
-
-.divider-small {
-  display: inline-block;
-  border: 2px solid #fff;
-  width: 80px;
-  margin: 0 20px;
+  width: 10%;
+  vertical-align: middle;
+  margin: 0 10px;
+  height: 10px;
+  border-top: 5px solid #fff;
 }
 
 /* Media queries */
