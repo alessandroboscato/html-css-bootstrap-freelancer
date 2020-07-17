@@ -170,16 +170,24 @@ h1 {
 
 .box_portfolio {
   position: relative;
-  height: 250px;
+  max-width: 360px;
   background-color: blue;
+  margin: auto;
   margin-bottom: 30px;
   overflow: hidden;
   border-radius: 3%;
+
 }
 
-.box_portfolio img {
+.img_portfolio {
   width: 100%;
+  height: auto;
+
 }
+/* .box_portfolio img {
+  max-width: 100%;
+  height: auto;
+} */
 
 /* overlay */
 
