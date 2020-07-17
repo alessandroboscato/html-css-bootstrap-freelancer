@@ -233,6 +233,18 @@ h2 {
   background-color: #F8F9FA;
 }
 
+/* contact me */
+
+.contact_text {
+  max-width: 900px;
+  margin: auto;
+}
+
+.form_contact {
+  border: none;
+  margin-bottom: 20px;
+  border-bottom: 1px solid 
+}
 /* Media queries */
 @media screen and (max-width: 991px) {
   .nav_start {
