@@ -48,7 +48,7 @@ h1 {
   font-weight: 900;
 }
 
-#portfolio h2 {
+#portfolio h2, #about h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -76,6 +76,7 @@ h1 {
 .p_bottom_40 {
   padding-bottom: 40px;
 }
+
 /* navigation */
 
 .header_top {
@@ -105,6 +106,7 @@ h1 {
 }
 
 /* navigation hover */
+
 .logo:hover {
   text-decoration: none;
   color: #fff;
@@ -120,6 +122,7 @@ h1 {
   margin-top: 100px;
   padding: 100px 0 60px 0;
 }
+
 .jumbo_text {
   max-width: 900px;
   padding: 0 15px;
@@ -139,6 +142,11 @@ h1 {
 
 ._star {
   font-size: 35px;
+  color: #fff;
+}
+
+._dark {
+  color: #2C3E4F;
 }
 
 ._star:after, ._star:before {
@@ -153,16 +161,18 @@ h1 {
 ._dark::after, ._dark:before {
   background-color: #2C3E4F;
 }
+
 /* portfolio */
 
 #portfolio h2 {
   color: #2C3E4F;
 }
+
 .box_portfolio {
+  position: relative;
   height: 250px;
   background-color: blue;
   margin-bottom: 30px;
-  position: relative;
   overflow: hidden;
   border-radius: 3%;
 }
@@ -171,17 +181,34 @@ h1 {
   width: 100%;
 }
 
+/* overlay */
+
+.box_portfolio:hover .overlay {
+  display: block;
+}
+
 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   display: none;
+  background-color: rgba(26, 188, 156, 0.9);
 }
 
 .overlay i {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
+  font-size: 70px;
 }
 
+/* about */
+
+#about {
+  color: #fff;
+}
 
 /* Media queries */
 @media screen and (max-width: 991px) {
