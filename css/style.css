@@ -27,15 +27,17 @@
 }
 
 /* typhography */
-body {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
+
+.header_top {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
 }
 
-main h2 {
-  font-size: 6rem;
-  font-weight: 700;
+.header_top .logo {
+  font-size: 26px;
 }
+
+
 
 /* mix */
 .btn_green {
@@ -50,7 +52,7 @@ main h2 {
 }
 
 .p_top_80 {
-  padding-top: 80px;
+  padding-top: 0px;
 }
 .p_bottom_80 {
   padding-bottom: 80px;
@@ -64,31 +66,32 @@ main h2 {
   top: 0;
   left: 0;
   z-index: 1;
-  height: 75px;
-  line-height: 75px;
+  height: 100px;
+  line-height: 100px;
   background-color: #2C3E4F;
+  text-transform: uppercase;
 }
 
-a {
-  font-size: 1.75em;
+.header_top a {
+  display: inline-block;
   color: #fff;
   font-weight: 700;
   text-decoration: none;
-}
-
-.nav_start:hover {
-  text-decoration: none;
-  color: #fff;
-}
-
-.font_nav {
-  font-size: 1rem;
+  line-height: 50px;
+  font-size: inherit;
+  margin-left: 5px;
 }
 
 .font_nav a {
-  padding: 10px;
+  padding-left: 20px;
 }
 
+
+/* hover */
+.logo:hover {
+  text-decoration: none;
+  color: #fff;
+}
 .font_nav a:hover {
   color: #1CBC9B;
   text-decoration: none;
