@@ -48,6 +48,12 @@ h1 {
   font-weight: 900;
 }
 
+#portfolio h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 /* mix */
 .btn_green {
   background-color: #1CBC9B;
@@ -61,12 +67,15 @@ h1 {
 }
 
 .p_top_80 {
-  padding-top: 0px;
+  padding-top: 80px;
 }
 .p_bottom_80 {
   padding-bottom: 80px;
 }
 
+.p_bottom_40 {
+  padding-bottom: 40px;
+}
 /* navigation */
 
 .header_top {
@@ -127,6 +136,7 @@ h1 {
 }
 
 /* divider */
+
 ._star {
   font-size: 35px;
 }
@@ -140,14 +150,13 @@ h1 {
   background-color: #fff;
 }
 
-
-/* portfolio */
-#portfolio .divider {
-  color: #2C3E4F;
+._dark::after, ._dark:before {
+  background-color: #2C3E4F;
 }
+/* portfolio */
 
-#portfolio .divider hr {
-  border-top: 5px solid #2C3E4F;
+#portfolio h2 {
+  color: #2C3E4F;
 }
 .box_portfolio {
   height: 250px;
