@@ -28,9 +28,10 @@
 
 /* typhography */
 
-.header_top {
+.header_top, #about p {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .header_top .logo {
@@ -48,18 +49,26 @@ h1 {
   font-weight: 900;
 }
 
-#portfolio h2, #about h2 {
+h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: bold;
 }
 
 /* mix */
+
 .btn_green {
   background-color: #1CBC9B;
   color: #fff;
   font-weight: bold;
   font-size: 13px;
+}
+
+.btn_big {
+  font-size: 20px;
+  padding: 20px 30px;
+  border: 2px solid #fff;
+  border-radius: 10px;
 }
 
 .bg_green {
@@ -170,24 +179,18 @@ h1 {
 
 .box_portfolio {
   position: relative;
-  max-width: 360px;
+  max-width: 500px;
   background-color: blue;
   margin: auto;
   margin-bottom: 30px;
   overflow: hidden;
   border-radius: 3%;
-
 }
 
 .img_portfolio {
   width: 100%;
   height: auto;
-
 }
-/* .box_portfolio img {
-  max-width: 100%;
-  height: auto;
-} */
 
 /* overlay */
 
@@ -216,6 +219,18 @@ h1 {
 
 #about {
   color: #fff;
+}
+
+.about_text {
+  max-width: 900px;
+  margin: auto;
+  line-height: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+}
+
+.about_text .btn_big:hover {
+  background-color: #F8F9FA;
 }
 
 /* Media queries */
