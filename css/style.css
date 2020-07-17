@@ -41,6 +41,8 @@ main h2 {
 .btn_green {
   background-color: #1CBC9B;
   color: #fff;
+  font-weight: bold;
+  font-size: 13px;
 }
 
 .bg_green {
@@ -53,7 +55,9 @@ main h2 {
 .p_bottom_80 {
   padding-bottom: 80px;
 }
+
 /* navigation */
+
 .header_top {
   position: fixed;
   width: 100%;
@@ -147,10 +151,36 @@ hr {
   height: 250px;
   background-color: blue;
   margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 3%;
 }
+
+.box_portfolio img {
+  width: 100%;
+}
+
+.overlay {
+  display: none;
+}
+
+.overlay i {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+
 /* Media queries */
-@media screen and (max-width: 697px) {
+@media screen and (max-width: 991px) {
   .nav_start {
     font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav_start {
+    font-size: 0.8em;
   }
 }
