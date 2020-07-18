@@ -229,31 +229,34 @@ font-weight: normal;
 }
 
 .form_contact {
-height: 100px;
+height: 68px;
 border-bottom: 1px solid #6C757D;
+margin-bottom: 20px;
 }
 
 .form_contact_big {
-  height: 200px;
+  height: 186px;
   border-bottom: 1px solid #6C757D;
   margin-bottom: 20px;
 }
 
 .form_input {
-  height: 99px;
   width: 100%;
   border: none;
   border-color: transparent;
 }
 
 .form_input_big {
-  height: 199px;
   width: 100%;
+  height: auto;
   border: none;
   border-color: transparent;
+  resize: none;
+  line-height: 30px;
+  overflow: auto;
 }
 
-input:focus{
+input:focus, textarea:focus{
     outline: none;
 }
 
