@@ -24,8 +24,12 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
+}
+
+#about p {
+  font-weight: 500;
 }
 
 form {
@@ -63,6 +67,10 @@ font-weight: normal;
 
 .p_bottom_40 {
   padding-bottom: 40px;
+}
+
+.m_top_40 {
+  margin-top: 40px;
 }
 
 /* navigation */
@@ -201,11 +209,11 @@ font-weight: normal;
 }
 
 .about_text {
-  max-width: 900px;
+  max-width: 850px;
   margin: auto;
   line-height: 30px;
   font-weight: bold;
-  padding: 0 40px;
+  padding: 40px;
 }
 
 .about_text .btn_big:hover {
@@ -215,7 +223,8 @@ font-weight: normal;
 /* contact me */
 
 .contact_text {
-  max-width: 900px;
+  max-width: 850px;
+  padding: 40px;
   margin: auto;
 }
 
@@ -242,6 +251,10 @@ border-bottom: 1px solid #6C757D;
   width: 100%;
   border: none;
   border-color: transparent;
+}
+
+input:focus{
+    outline: none;
 }
 
 /* footer */
