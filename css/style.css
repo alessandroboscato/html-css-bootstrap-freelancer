@@ -84,6 +84,10 @@ footer p {
   margin-top: 40px;
 }
 
+.m_bottom_40 {
+  margin-bottom: 40px;
+}
+
 /* navigation */
 
 .header_top {
@@ -278,11 +282,35 @@ footer {
 }
 
 .footer_top {
+  max-width: 1000px;
   margin: auto;
 }
 
 h3 {
   text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.social {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  line-height: 50px;
+  margin-right: 6px;
+}
+
+.social i {
+  font-size: 20px;
+}
+
+.footer_top a {
+  color: #1CBC9B;
+}
+
+.footer_bottom {
+  background-color: #1A262F;
+  color: #fff;
 }
 
 /* Media queries */
